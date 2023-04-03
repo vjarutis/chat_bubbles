@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 50px;
+    background: ivory;
+}
+
+.container-1 {
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+p {
+    text-align: center;
+    transition: 0.3s;
+}
+
+p:hover {
+    scale: 1.1;
+    color: darkgoldenrod;
+}
+
+img {
+    width: 75px;
+    border-radius: 100px;
+}
+
+.square-1 {
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 25px 25px 25px 0px;
+}
+
+.triangle-left {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid lightgray; 
+}
+
+.bubble-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.container-2 {
+    height: 200px;
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+img {
+    width: 75px;
+    border-radius: 100px;
+}
+
+.square-2 {
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 25px 25px 0px 25px;
+}
+
+.triangle-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left:10px solid lightgray; 
+}
+
+.bubble-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-3 {
+    height: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+img {
+    width: 75px;
+    border-radius: 100px;
+}
+
+.square-3 {
+    height: 70px;
+    width: 250px;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 25px 25px 25px 0px;
+}
+
+.triangle-left {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid lightgray; 
+}
+
+.bubble-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.container-4 {
+    height: 150px;
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+img {
+    width: 75px;
+    border-radius: 100px;
+}
+
+.square-4 {
+    height: 75px;
+    width: 250px;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 25px 25px 0px 25px;
+}
+
+.triangle-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left:10px solid lightgray; 
+}
+
+.bubble-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
